@@ -3,8 +3,8 @@
 
 # Marie-Elyse Lafaille-Magnan APR 2020
 
-# code to impute missing information in your typical cohort data
-# test to impute missing snps data or other tabular data with ctgan and compare to other imputation methods 
+# code to either generate more date or impute missing information in your typical cohort data
+# test to impute missing snps data or other tabular data or generate more observations with ctgan and compare to other imputation methods 
 # to do try to implement other imputation method and examine csv file 
 # error AttributeError: 'int' object has no attribute 'clear'
 
