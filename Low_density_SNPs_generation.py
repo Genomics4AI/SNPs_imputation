@@ -6,6 +6,7 @@
 # code to impute missing information in your typical cohort data
 # test to impute missing snps data or other tabular data with ctgan and compare to other imputation methods 
 # to do try to implement other imputation method and examine csv file 
+# error AttributeError: 'int' object has no attribute 'clear'
 
 import torch
 from torch import nn
@@ -544,6 +545,8 @@ ctgan = CTGANSynthesizer()
 ctgan.fit(data, discrete_columns)
 #need to check excel files as there are some nan causing errors 
 #Input contains NaN, infinity or a value too large for dtype('float64').
+# fixed with new csv file
+# new error AttributeError: 'int' object has no attribute 'clear'
 
 
 # In[78]:
